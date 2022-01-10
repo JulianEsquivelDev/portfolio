@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #232b2b;
+}
+header {
+    padding: 20px 35px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 100px;
+}
+header h1 {
+    font-weight: bolder;
+    font-size: 36px;
+    margin: 0;
+    background-color: #008b8b;
+    margin-left: 0;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    padding-left: 50px;
+}
+header a {
+    color: white;
+    text-decoration: none;
+}
+header button {
+    margin: 10px;
+}
+header nav {
+    margin: 7px 0;
+    position: absolute;
+    right: 0;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav ul li a {
+    padding: 20px 20px;
+    font-size: 1.75vw;
+    font-weight: lighter;
+}
+button {
+    border-radius: 15px;
+    background-color: #008b8b;
+}
+button:hover {
+    background-color: white;
+}
+header a:hover {
+    color: #008b8b;
+}
+.hero {
+    background-color: #008b8b;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.hero h1 {
+    color: white;
+    font-size: 30px;
+}
+.aboutme {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aboutme h1 {
+    font-size: 50px;
+    padding: 100px;
+    align-items: center;
+    border-right: 8px solid #008b8b;
+    border-bottom: 8px solid #008b8b;
+}
+.aboutme p {
+    padding-left: 35px;
+}
+footer {
+    background-color: black;
+    width: 100;
+    padding: 20px 20px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+footer h1 {
+    color: white;
+    background-color: #008b8b;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+footer nav {
+    margin: 7px 0;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer button {
+    padding: 5px;
+    margin: 10px;
+}
+footer nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+footer nav ul li a {
+    font-size: 1.55vw;
+}
+footer a:hover {
+    color: #008b8b;
+}
+.work {
+    margin-bottom: 30px;
+}
+.work h1 {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 50px;
+}
+.run-buddy {
+    background-image: url(../assets/images/run-buddy.png);
+    background-size: cover;
+    height: 600px;
+    width: 50%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 5px solid white;
+}
+.run-buddy h2 {
+    background-color: #008b8b;
+    opacity: 0.2;
+    width: 100%;
+    height: 90%;
+}
+.run-buddy h2:hover {
+    background-color: black;
+    opacity: 0.4;
+    width: 100%;
+    height: 90%;
+}
+.run-buddy h1 {
+    background-color: #008b8b;
+}
+.horiseon {
+    background-image: url(../assets/images/Horiseon.png);
+    background-size: cover;
+    height: 400px;
+    width: 25%;
+    border: 5px solid white;
+}
+.horiseon h2 {
+    background-color: #008b8b;
+    opacity: 0.2;
+    width: 100%;
+    height: 85%;
+}
+.horiseon h2:hover {
+    background-color: black;
+    opacity: 0.4;
+    width: 100%;
+    height: 85%;
+}
+.horiseon h1 {
+    background-color: #008b8b;
+}
+.app {
+    background-image: url(../assets/images/app.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 25%;
+    border: 5px solid white;
+}
+.app h2 {
+    background-color: #008b8b;
+    opacity: 0.2;
+    width: 100%;
+    height: 85%;
+}
+.app h2:hover {
+    background-color: black;
+    opacity: 0.4;
+    width: 100%;
+    height: 85%;
+}
+.app h1 {
+    background-color: #008b8b;
+}
+.work2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+img {
+   border-radius: 50%;
+   padding: 40px;
+}
